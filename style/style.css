@@ -1,0 +1,283 @@
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    color: #101214;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  h2 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101214;
+  }
+
+  h3 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101214;
+  }
+
+  p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  li {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #505253;
+  }
+  ul {
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin-bottom: 20px;
+  }
+
+  .data_work {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #73808d;
+  }
+  a,
+  .lokation {
+    text-decoration: none;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #505253;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .head_text {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808d;
+  }
+
+  .wrap {
+    background-color: white;
+    margin: 24px;
+    max-width: 612px;
+    height: 792px;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 18px 22px 2px #101214;
+  }
+
+  hr {
+    width: 100%;
+    height: 4px;
+    left: 0px;
+    top: 0px;
+    background: #101214;
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    margin-top: 36px;
+    margin-left: 48px;
+    align-items: center;
+  }
+
+  img {
+    width: 72px;
+    height: 66px;
+    float: right;
+    margin-left: 245px;
+    margin-right: 120px;
+  }
+
+  main {
+    display: flex;
+    margin: 36px 48px;
+  }
+
+  .experience {
+    margin-right: 36px;
+  }
+  .main_container_compani {
+    margin-bottom: 12px;
+  }
+  .education {
+    margin-top: 16px;
+  }
+  .contact_mobile_viwe {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  h1 {
+    color: #101214;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  h2 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101214;
+  }
+
+  h3 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101214;
+  }
+
+  p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  li {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #505253;
+  }
+  ul {
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .data_work {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #73808d;
+  }
+  a,
+  .lokation {
+    text-decoration: none;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #505253;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .head_text {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808d;
+  }
+
+  .wrap {
+    background-color: white;
+    margin: 24px;
+    max-width: 20rem;
+    height: 90%;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 18px 22px 2px #101214;
+  }
+
+  hr {
+    width: 100%;
+    height: 4px;
+    left: 0px;
+    top: 0px;
+    background: #101214;
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 36px;
+    align-items: center;
+  }
+
+  img {
+    width: 62px;
+    height: 58px;
+    float: right;
+    margin-left: 98px;
+    margin-right: 110px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 22px 22px;
+  }
+
+  .experience {
+    margin-right: 28px;
+  }
+  .main_container_compani {
+    margin-bottom: 8px;
+  }
+  .education {
+    margin-top: 12px;
+  }
+
+  .contact_mobile_viwe {
+    display: flex;
+    flex-direction: column;
+  }
+}
